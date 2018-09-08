@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D13F6772143743400923572 /* AsyncTCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13F6762143743400923572 /* AsyncTCP.m */; };
+		6D13F67B214380C700923572 /* AsyncTCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13F679214380A300923572 /* AsyncTCP.m */; };
 		6D9C46C91BEB09DC0053066A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46CB1BEB09DC0053066A /* InfoPlist.strings */; };
 		6D9C46D41BEB0A940053066A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46D61BEB0A940053066A /* Localizable.strings */; };
 		6DBB2CC11DBB34C300BC545A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF54E561AB588C700197EBC /* MainViewController.m */; };
@@ -24,8 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D13F6752143743400923572 /* AsyncTCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTCP.h; sourceTree = "<group>"; };
-		6D13F6762143743400923572 /* AsyncTCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTCP.m; sourceTree = "<group>"; };
+		6D13F6762143743400923572 /* SSLAsyncTCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLAsyncTCP.m; sourceTree = "<group>"; };
+		6D13F678214380A300923572 /* AsyncTCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTCP.h; sourceTree = "<group>"; };
+		6D13F679214380A300923572 /* AsyncTCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTCP.m; sourceTree = "<group>"; };
 		6D9C46CA1BEB09DC0053066A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D9C46CC1BEB09E80053066A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6D9C46D51BEB0A940053066A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -72,8 +73,9 @@
 		6D13F6742143743400923572 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				6D13F6752143743400923572 /* AsyncTCP.h */,
-				6D13F6762143743400923572 /* AsyncTCP.m */,
+				6D13F678214380A300923572 /* AsyncTCP.h */,
+				6D13F679214380A300923572 /* AsyncTCP.m */,
+				6D13F6762143743400923572 /* SSLAsyncTCP.m */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -233,7 +235,7 @@
 			files = (
 				6DF54D941AB5862000197EBC /* AppDelegate.m in Sources */,
 				6DF54D911AB5862000197EBC /* main.m in Sources */,
-				6D13F6772143743400923572 /* AsyncTCP.m in Sources */,
+				6D13F67B214380C700923572 /* AsyncTCP.m in Sources */,
 				6DBB2CC11DBB34C300BC545A /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,7 +50,7 @@
     NSMutableData *result = [NSMutableData data];
     
     AsyncTCP *tcp = [[AsyncTCP alloc] init];
-    [tcp connect:@"taobao.com" port:443 cb:^(AsyncTCP *tcp, int err) {
+    [tcp connect:@"taobao.com" port:80 cb:^(AsyncTCP *tcp, int err) {
         if (err != 0) {
             NSLog(@"connect err:%d", err);
             return;
