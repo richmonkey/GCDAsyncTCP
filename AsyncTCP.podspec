@@ -10,7 +10,15 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '8.0'
   s.requires_arc     = true
 
-  s.public_header_files = 'source/*.h'
-  s.source_files        = 'source/*.{h,m}'
+  s.subspec 'AsyncTCP' do |sp|
+    sp.public_header_files = 'source/*.h'
+    sp.source_files        = 'source/*.{h,m}'
+    sp.exclude_files       = 'source/SSLAsyncTCP.m'
+  end
 
+  s.subspec 'SSLAsyncTCP' do |sp|
+    sp.public_header_files = 'source/*.h'
+    sp.source_files        = 'source/*.{h,m}'
+    sp.exclude_files       = 'source/AsyncTCP.m'
+  end  
 end

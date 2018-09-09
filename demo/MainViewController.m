@@ -48,9 +48,14 @@
     self.chatButton.userInteractionEnabled = NO;
     
     NSMutableData *result = [NSMutableData data];
-    
+
+#ifdef TEST_SSL
+    int port = 443;
+#else
+    int port = 80;
+#endif
     AsyncTCP *tcp = [[AsyncTCP alloc] init];
-    [tcp connect:@"taobao.com" port:80 cb:^(AsyncTCP *tcp, int err) {
+    [tcp connect:@"taobao.com" port:port cb:^(AsyncTCP *tcp, int err) {
         if (err != 0) {
             NSLog(@"connect err:%d", err);
             return;

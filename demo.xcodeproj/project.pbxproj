@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6D13F67B214380C700923572 /* AsyncTCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13F679214380A300923572 /* AsyncTCP.m */; };
+		6D5716D32144ABBE003F2B2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF54D931AB5862000197EBC /* AppDelegate.m */; };
+		6D5716D42144ABBE003F2B2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF54D901AB5862000197EBC /* main.m */; };
+		6D5716D62144ABBE003F2B2D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF54E561AB588C700197EBC /* MainViewController.m */; };
+		6D5716D82144ABBE003F2B2D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54EBA1AB58D6600197EBC /* SystemConfiguration.framework */; };
+		6D5716D92144ABBE003F2B2D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E621AB58B1900197EBC /* QuartzCore.framework */; };
+		6D5716DA2144ABBE003F2B2D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E601AB58B0400197EBC /* CoreMedia.framework */; };
+		6D5716DB2144ABBE003F2B2D /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E5E1AB58AFF00197EBC /* CoreAudio.framework */; };
+		6D5716DC2144ABBE003F2B2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E5C1AB58AD000197EBC /* UIKit.framework */; };
+		6D5716DD2144ABBE003F2B2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E5A1AB58AC900197EBC /* AVFoundation.framework */; };
+		6D5716DE2144ABBE003F2B2D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF54E581AB58AC400197EBC /* AssetsLibrary.framework */; };
+		6D5716E02144ABBE003F2B2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46CB1BEB09DC0053066A /* InfoPlist.strings */; };
+		6D5716E12144ABBE003F2B2D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46D61BEB0A940053066A /* Localizable.strings */; };
+		6D5716E22144ABBE003F2B2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF54D9B1AB5862000197EBC /* Images.xcassets */; };
+		6D5716E82144AC4B003F2B2D /* SSLAsyncTCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13F6762143743400923572 /* SSLAsyncTCP.m */; };
 		6D9C46C91BEB09DC0053066A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46CB1BEB09DC0053066A /* InfoPlist.strings */; };
 		6D9C46D41BEB0A940053066A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D9C46D61BEB0A940053066A /* Localizable.strings */; };
 		6DBB2CC11DBB34C300BC545A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF54E561AB588C700197EBC /* MainViewController.m */; };
@@ -27,6 +41,7 @@
 		6D13F6762143743400923572 /* SSLAsyncTCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLAsyncTCP.m; sourceTree = "<group>"; };
 		6D13F678214380A300923572 /* AsyncTCP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTCP.h; sourceTree = "<group>"; };
 		6D13F679214380A300923572 /* AsyncTCP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTCP.m; sourceTree = "<group>"; };
+		6D5716E62144ABBE003F2B2D /* ssl-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ssl-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9C46CA1BEB09DC0053066A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D9C46CC1BEB09E80053066A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6D9C46D51BEB0A940053066A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -53,6 +68,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6D5716D72144ABBE003F2B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5716D82144ABBE003F2B2D /* SystemConfiguration.framework in Frameworks */,
+				6D5716D92144ABBE003F2B2D /* QuartzCore.framework in Frameworks */,
+				6D5716DA2144ABBE003F2B2D /* CoreMedia.framework in Frameworks */,
+				6D5716DB2144ABBE003F2B2D /* CoreAudio.framework in Frameworks */,
+				6D5716DC2144ABBE003F2B2D /* UIKit.framework in Frameworks */,
+				6D5716DD2144ABBE003F2B2D /* AVFoundation.framework in Frameworks */,
+				6D5716DE2144ABBE003F2B2D /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF54D881AB5862000197EBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				6DF54D8B1AB5862000197EBC /* demo.app */,
+				6D5716E62144ABBE003F2B2D /* ssl-demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +189,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6D5716D12144ABBE003F2B2D /* ssl-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5716E32144ABBE003F2B2D /* Build configuration list for PBXNativeTarget "ssl-demo" */;
+			buildPhases = (
+				6D5716D22144ABBE003F2B2D /* Sources */,
+				6D5716D72144ABBE003F2B2D /* Frameworks */,
+				6D5716DF2144ABBE003F2B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ssl-demo";
+			productName = im_demo;
+			productReference = 6D5716E62144ABBE003F2B2D /* ssl-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6DF54D8A1AB5862000197EBC /* demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DF54DAE1AB5862000197EBC /* Build configuration list for PBXNativeTarget "demo" */;
@@ -185,6 +232,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = beetle;
 				TargetAttributes = {
+					6D5716D12144ABBE003F2B2D = {
+						DevelopmentTeam = HB5A8TLKYL;
+					};
 					6DF54D8A1AB5862000197EBC = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = HB5A8TLKYL;
@@ -211,11 +261,22 @@
 			projectRoot = "";
 			targets = (
 				6DF54D8A1AB5862000197EBC /* demo */,
+				6D5716D12144ABBE003F2B2D /* ssl-demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6D5716DF2144ABBE003F2B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5716E02144ABBE003F2B2D /* InfoPlist.strings in Resources */,
+				6D5716E12144ABBE003F2B2D /* Localizable.strings in Resources */,
+				6D5716E22144ABBE003F2B2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF54D891AB5862000197EBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +290,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6D5716D22144ABBE003F2B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5716D32144ABBE003F2B2D /* AppDelegate.m in Sources */,
+				6D5716D42144ABBE003F2B2D /* main.m in Sources */,
+				6D5716E82144AC4B003F2B2D /* SSLAsyncTCP.m in Sources */,
+				6D5716D62144ABBE003F2B2D /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6DF54D871AB5862000197EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +336,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6D5716E42144ABBE003F2B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = demo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhifeng Zhou (PV548P44SL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhifeng Zhou (PV548P44SL)";
+				DEVELOPMENT_TEAM = HB5A8TLKYL;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "demo/demo-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					TEST_SSL,
+				);
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetle.im.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5bad1627-4804-474d-90b7-84026e5835e2";
+			};
+			name = Debug;
+		};
+		6D5716E52144ABBE003F2B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = demo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HB5A8TLKYL;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = "demo/demo-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = TEST_SSL;
+				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beetle.im.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 		6DF54DAC1AB5862000197EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +535,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6D5716E32144ABBE003F2B2D /* Build configuration list for PBXNativeTarget "ssl-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5716E42144ABBE003F2B2D /* Debug */,
+				6D5716E52144ABBE003F2B2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6DF54D861AB5862000197EBC /* Build configuration list for PBXProject "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

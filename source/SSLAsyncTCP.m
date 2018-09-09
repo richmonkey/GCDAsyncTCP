@@ -8,7 +8,6 @@
 */
 
 #import "AsyncTCP.h"
-#import "util.h"
 #include <netinet/in.h>
 #include <netdb.h>
 #include <arpa/inet.h>
